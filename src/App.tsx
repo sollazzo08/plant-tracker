@@ -1,11 +1,13 @@
-import './App.css';
+import React from "react";
+import "./App.css";
+import PlantCard from "./components/PlantCard";
 
-const App: React.FC = () =>{
-  return (
-    <div>
-      <h3>Plant Tracker</h3>
-    </div>
-  );
-}
+const App: React.FC = () => {
+    return (
+        <div className="App">
+            <PlantCard />
+        </div>
+    );
+};
 
 export default App;
